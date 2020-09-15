@@ -21,7 +21,7 @@
     $sheetId = "ENTER-SHEET-ID";
 
     //value in array
-    $newValues = array("Dhaval", "dhavalk@gmail.com", "+91 7990473046", "https://www.linkedin.com/in/Dhavalkoradiya"); 
+    $newValues = array("Dhaval", "dhavalk@gmail.com", "+91 9726612304", "https://www.linkedin.com/in/Dhavalkoradiya"); 
     addRowToSpreadsheet($sheetsService, $spreadsheetId, $sheetId, $newValues);    
 
 function addRowToSpreadsheet($sheetsService, $spreadsheetId, $sheetId, $newValues = []) {
